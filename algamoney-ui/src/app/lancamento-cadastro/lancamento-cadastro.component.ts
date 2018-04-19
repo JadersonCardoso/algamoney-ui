@@ -12,4 +12,14 @@ export class LancamentoCadastroComponent {
     { label : 'Despesa', value : 'DESPESA'},
   ];
 
+  categorias = [
+    { label : 'Alimentação', value : 1},
+    { label : 'Transporte', value: 2},
+  ];
+
+  pessoas = [
+    { label : 'Jaderson Cardoso', value : 1},
+    { label : 'Fernanda Sagica', value: 2},
+  ];
+
 }
