@@ -29,7 +29,9 @@
       </div>
       <div class="ui-g-12 ui-md-3 ui-fluid">
         <label>Valor</label>
-        <input pInputText type="text" placeholder="0,00">
+        <input pInputText currencyMask [(ngModel)]="value" name="value"
+          [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }"
+          placeholder="0,00">
       </div>
       <div class="ui-g-12 ui-md-6 ui-fluid">
         <label>Categoria</label>
@@ -38,7 +40,7 @@
       </div>
       <div class="ui-g-12 ui-md-6 ui-fluid">
         <label>Pessoa</label>
-        <p-dropdown [options]="pessoas" [filter]="true"
+        <p-dropdown [options]="pessoas" [filter]="pessoas"
           [autoWidth]="false"   placeholder="Selecione"></p-dropdown>
       </div>
       <div class="ui-g-12 ui-fluid">
