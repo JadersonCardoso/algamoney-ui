@@ -10,6 +10,7 @@ import {InputTextareaModule} from 'primeng/components/inputtextarea/inputtextare
 import {CalendarModule} from 'primeng/components/calendar/calendar';
 import {SelectButtonModule} from 'primeng/components/selectbutton/selectbutton';
 import {DropdownModule} from 'primeng/components/dropdown/dropdown';
+import {InputMaskModule} from 'primeng/components/inputmask/inputmask';
 
 import { CurrencyMaskModule } from 'ng2-currency-mask';
 
@@ -19,6 +20,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PessoasPesquisaComponent } from './pessoas-pesquisa/pessoas-pesquisa.component';
 import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-cadastro.component';
 import { FormsModule } from '@angular/forms';
+import { PessoaCadastroComponent } from './pessoa-cadastro/pessoa-cadastro.component';
 
 
 @NgModule({
@@ -27,7 +29,8 @@ import { FormsModule } from '@angular/forms';
     LancamentosPesquisaComponent,
     NavbarComponent,
     PessoasPesquisaComponent,
-    LancamentoCadastroComponent
+    LancamentoCadastroComponent,
+    PessoaCadastroComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +44,8 @@ import { FormsModule } from '@angular/forms';
     SelectButtonModule,
     DropdownModule,
     CurrencyMaskModule,
-    FormsModule
+    FormsModule,
+    InputMaskModule
 
   ],
   providers: [],
