@@ -23,6 +23,7 @@ import { FormsModule } from '@angular/forms';
 import { PessoaCadastroComponent } from './pessoa-cadastro/pessoa-cadastro.component';
 import { MessageComponent } from './message/message.component';
 import { LancamentosGridComponent } from './lancamentos-grid/lancamentos-grid.component';
+import { PessoaGridComponent } from './pessoa-grid/pessoa-grid.component';
 
 
 
@@ -35,7 +36,8 @@ import { LancamentosGridComponent } from './lancamentos-grid/lancamentos-grid.co
     LancamentoCadastroComponent,
     PessoaCadastroComponent,
     MessageComponent,
-    LancamentosGridComponent
+    LancamentosGridComponent,
+    PessoaGridComponent
   ],
   imports: [
     BrowserModule,
