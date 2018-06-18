@@ -16,6 +16,7 @@ import { SelectButtonModule } from 'primeng/components/selectbutton/selectbutton
 import { DropdownModule } from 'primeng/components/dropdown/dropdown';
 
 import { CurrencyMaskModule } from 'ng2-currency-mask';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   imports: [
@@ -32,7 +33,9 @@ import { CurrencyMaskModule } from 'ng2-currency-mask';
     SelectButtonModule,
     DropdownModule,
 
-    CurrencyMaskModule
+    CurrencyMaskModule,
+
+    SharedModule
   ],
   declarations: [
     LancamentoCadastroComponent,
